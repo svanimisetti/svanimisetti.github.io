@@ -1,0 +1,50 @@
+title: Sampath Vanimisetti
+description: Personal weblog and professional portfolio of Sampath Vanimisetti.
+author:
+  name: Sampath Vanimisetti
+  email: svanimisetti@gmail.com
+
+github_username: svanimisetti
+linkedin_username: svanimisetti1
+
+minima:
+  social_links:
+    github:  svanimisetti
+    linkedin: svanimisetti1
+    gitlab:
+    - username: svanimisetti
+      instance: gitlab.com
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+kramdown:
+  auto_ids: false
+
+permalink: posts/:year/:month/:slug
+
+collections:
+  projects:
+    output: true
+  my_categories:
+    output: true
+    permalink: posts/category/:slug
+  my_tags:
+    output: true
+    permalink: posts/tag/:slug
+
+# jekyll-compress-html settings
+compress_html:
+  clippings: all
+  blanklines: true
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE-CONTENT.md
+  - LICENSE-SOURCE.md

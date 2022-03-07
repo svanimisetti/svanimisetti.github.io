@@ -1,0 +1,14 @@
+---
+layout: default
+# To use this layout simply create a <ul> of the items in your listing.
+# Within a <li> you can use the listing-title, -meta (for metadata), and
+# -summary classes.
+---
+<article class="listing">
+  <header class="page-header">
+    <h1 class="page-title">{{ page.title | escape }}</h1>
+  </header>
+  <div class="listing-content">
+    {{ content }}
+  </div>
+</article>
