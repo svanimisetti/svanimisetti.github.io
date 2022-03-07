@@ -5,6 +5,10 @@ email: svanimisetti@gmail.com
 github_username: svanimisetti
 linkedin_username: svanimisetti1
 
+# from so-simple theme settings
+#url: https://svanimisetti.in
+#enforce_ssl: svanimisetti.in
+
 minima:
   social_links:
     github:  svanimisetti
