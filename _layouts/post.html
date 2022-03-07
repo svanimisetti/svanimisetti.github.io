@@ -30,7 +30,8 @@ layout: default
   <div class="page-content" itemprop="articleBody">
     {{ content }}
   </div>
-  <footer class="post-footer">
-    <p>Want to discuss this post? Use GitHub Issues.</p>
-  </footer>
+  
+  {%- if site.disqus.shortname and page.comments and page.layout == "post" -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
 </article>
