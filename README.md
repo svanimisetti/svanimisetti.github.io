@@ -1,6 +1,6 @@
 # svanimisetti.in
 
-Personal website, blog and professional portfolio of Sampath Vanimisetti.
+Personal weblog and professional portfolio of Sampath Vanimisetti.
 
 ## License
 
